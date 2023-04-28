@@ -1,0 +1,48 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10 px;
+    background-color: rgb(238, 242, 242) ;
+    padding: 10 px;
+}
+
+.item1 {
+    background-color: rgba(192, 184, 190, 0.607); 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.item2 {
+    background-color: rgb(156, 206, 210); 
+    grid-column-start: 1; 
+    grid-column-end: 5;          
+}
+
+.areaproductos {
+    grid-area: 4 / 2 / span 2/ span 2;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;   
+    justify-content: center;
+    background-color:rgba(75, 107, 248, 0.509);
+}
+
+.piedepagina{
+    grid-area: 6 / 1 / span 3/ span 4; display: 
+    display flex;
+    background-color: rgb(173, 178, 180);  
+    align-items: center; 
+}
+
+.contacto{
+    text-align: left;
+}
+
+.redes{
+    text-align: center;
+}
+
+.maps{
+    text-align: right;
+}
