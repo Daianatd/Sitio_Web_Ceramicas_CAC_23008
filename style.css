@@ -29,20 +29,9 @@
 }
 
 .piedepagina{
-    grid-area: 6 / 1 / span 3/ span 4; display: 
-    display flex;
+    grid-area: 6 / 1 / span 3/ span 4; 
     background-color: rgb(173, 178, 180);  
     align-items: center; 
-}
-
-.contacto{
-    text-align: left;
-}
-
-.redes{
-    text-align: center;
-}
-
-.maps{
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
 }
